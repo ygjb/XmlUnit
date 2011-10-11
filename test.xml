@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite errors="1" failures="1" hostname="localhost" name="test1" tests="4" time="0.000375" timestamp="2011-10-11T09:24:25.055594">
+		<testcase classname="" name="test case 1" time="5e-06"/>
+		<testcase classname="" name="test case 2" time="4e-06">
+			<error message="This test errored out" type="general error"/>
+		</testcase>
+		<testcase classname="" name="testcase 3" time="3e-06">
+			<failure message="This is a failed test case" type="general failure"/>
+		</testcase>
+		<testcase classname="" name="Final case" time="2e-06"/>
+	</testsuite>
+	<testsuite errors="1" failures="0" hostname="localhost" name="test2" tests="1" time="2.4e-05" timestamp="2011-10-11T09:24:25.056029">
+		<testcase classname="" name="bravo test case 1" time="5e-06">
+			<error message="This test errored out" type="general error"/>
+		</testcase>
+	</testsuite>
+</testsuites>
